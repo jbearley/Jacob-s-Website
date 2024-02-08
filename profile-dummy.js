@@ -1,104 +1,82 @@
 const profileData = {
   title: 'Profile',
-  name: 'John Doe',
-  sub_title: 'Ethical Hacker',
+  name: 'Jacob',
+  sub_title: 'College Student',
   about: {
-    intro: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+    intro: `Hi I'm Jacob and this is my website`,
     contact: {
-      email: 'asdf@jkl.com',
-      phone: '+1-1001010010',
-      address: 'New York, USA'
+      email: 'jacobearley01.com',
+      phone: '+1-3129526833',
+      address: 'Des Moines, IA'
     }
   },
 
   
   links: [
-    { title: 'Google', src: 'https://www.google.com/' },
-    { title: 'Facebook', src: 'https://www.facebook.com/' }
+    { title: 'Google', src: 'https://www.google.com/' }
   ],
   education: [
     {
-      alma: 'Lorem Ipsum',
-      duration: '1978 - 1980',
-      std: 'MSC',
-      score: '99.99%'
+      school: 'Drake University',
+      duration: '2020 - 2024',
     },
-    {
-      alma: 'Dotor Sit Amet',
-      duration: '1975 - 1977',
-      std: 'SomeThing',
-      score: '99.99%'
-    }
   ],
   skills: [
     {
-      category: 'Lorem Ipsum',
-      topics: ['Dolor', 'Sit', 'Amet', 'Consectetur', 'Adipiscing', 'Elit']
+      category: 'Language Sklls',
+      topics: ['JavaScript', 'Python', 'Ruby', 'HTML/CSS']
     },
     {
-      category: 'Sed / Eiusmod',
+      category: 'Soft SKills',
       topics: [
-        'Tempor',
-        'Incididunt',
-        'Labore',
-        'Dolore',
-        'Magna',
-        'Aliqua',
-        'Labore'
+        'Strong Communication', 'Support skills', 'Experience in a team'
       ]
     },
     {
-      category: 'Minim Veniam',
-      topics: ['Quis', 'Nostrud', 'Exercitation', 'Ullamco']
+      category: 'Productivity Skills',
+      topics: ['git', 'Microsoft Applications', 'Node.js']
     }
   ],
   projects: [
     {
-      title: 'Lorem Ipsum',
-      duration: 'Mar - Nov 1885',
+      title: 'Smily Face Web Extension',
+      duration: 'Dec - Dec 2023',
       link: 'https://github.com/jbearley/webExtension',
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+      desc: `My project`
     },
     {
-      title: 'Lorem Ipsum',
-      duration: 'Apr - Jul 1917',
+      title: 'Pokemon Team Builder',
+      duration: 'Dec - Dec 2023',
       link: 'https://github.com/jbearley/pokemon',
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+      desc: `My project`
+    },
+    {
+      title: '2d Engine',
+      duration: 'Dec - Dec 2023',
+      link: 'https://github.com/jbearley/2d_engine',
+      desc: `My project`
+    },
+    {
+      title: 'Music Rec',
+      duration: 'Dec - Dec 2023',
+      link: 'https://github.com/jbearley/music_rec',
+      desc: `My project`
     }
   ],
   experiences: [
     {
-      organization: 'World War 2',
+      organization: '(group build) Pokemon Team builder',
       title: `General`,
-      date: '1941 - 1945',
+      date: '2022 - 2023',
       details: [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-      ]
-    },
-    {
-      organization: 'World War 1',
-      title: `Soldier`,
-      date: '1914 - 1918',
-      details: [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+        `My group `
       ]
     }
   ],
   certifications: [
     {
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      date: 'Aug 1917'
-    },
-    {
-      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      date: 'Jul 1945'
+      desc: `BS Computer Science minor Mathematics (Graduation 2024)`,
+      date: 'May 2024'
     }
   ],
   events: []
