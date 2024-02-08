@@ -11,6 +11,8 @@ const profileData = {
       address: 'New York, USA'
     }
   },
+
+  
   links: [
     { title: 'Google', src: 'https://www.google.com/' },
     { title: 'Facebook', src: 'https://www.facebook.com/' }
@@ -55,14 +57,14 @@ const profileData = {
     {
       title: 'Lorem Ipsum',
       duration: 'Mar - Nov 1885',
-      link: 'https://github.com/',
+      link: 'https://github.com/jbearley/webExtension',
       desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
     },
     {
       title: 'Lorem Ipsum',
       duration: 'Apr - Jul 1917',
-      link: 'https://github.com/',
+      link: 'https://github.com/jbearley/pokemon',
       desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
     }
