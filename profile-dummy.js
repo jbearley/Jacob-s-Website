@@ -12,9 +12,7 @@ const profileData = {
   },
 
   
-  links: [
-    { title: 'Google', src: 'https://www.google.com/' }
-  ],
+  
   education: [
     {
       school: 'Drake University',
@@ -76,12 +74,11 @@ const profileData = {
   ],
   experiences: [
     {
-      organization: '(group build) Pokemon Team builder',
-      title: `General`,
+      organization: 'Whodat Team',
+      title: `Pokemon Team Builder`,
       date: '2022 - 2023',
-      details: [
-        `My group `
-      ]
+      desc: 'Myself and 3 of my peers set out to build a product that captured the fun behind one of our favorite childhood games Pokemon.'
+    
     }
   ],
   certifications: [
